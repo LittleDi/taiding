@@ -38,12 +38,12 @@ public class Welcome extends ActionSupport{
 	public String firstpage(){
 		piclist = welcomePicBizImpl.findPic("0");
 		System.out.println("456");
-		System.out.println("123xx");
+		System.out.println("123");
 		return "success";
 	}
 
 	public List<Menu> getMenulist() {
-		return menulist;
+		return menulist;				
 	}
 
 	public void setMenulist(List<Menu> menulist) {
