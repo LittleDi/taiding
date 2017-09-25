@@ -37,6 +37,8 @@ public class Welcome extends ActionSupport{
 	})
 	public String firstpage(){
 		piclist = welcomePicBizImpl.findPic("0");
+		System.out.println("456");
+		System.out.println("123");
 		return "success";
 	}
 
